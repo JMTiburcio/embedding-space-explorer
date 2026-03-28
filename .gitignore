@@ -1,0 +1,26 @@
+# Generated outputs (run experiments to regenerate)
+output/*.html
+output/*.png
+output/*.mp4
+output/*.jpg
+output/*.jpeg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment
+.env
+*.egg-info/
+dist/
+build/
+
+# Claude internals
+.claude/
+
+# Model cache (downloaded automatically by HuggingFace)
+# Uncomment if you want to ignore the cache:
+# ~/.cache/huggingface/
