@@ -1,4 +1,4 @@
-# Embedding Mapper
+# Embedding Space Explorer
 
 A hands-on exploration of token and text embeddings using CLIP and ModernBERT. Each experiment peels back a layer of how language models represent meaning as vectors, starting from individual tokens and building up to full phrases and model comparisons.
 
@@ -10,7 +10,7 @@ The original motivation came from a [Stable Diffusion deep dive notebook](stable
 
 ```bash
 conda env create -f environment.yml
-conda activate embedding-mapper
+conda activate embedding-space-explorer
 ```
 
 Models are downloaded automatically from HuggingFace on first run (~1 GB total).
@@ -154,7 +154,7 @@ For text-only work, models trained with text-text contrastive objectives (senten
 ## Project structure
 
 ```
-embedding-mapper/
+embedding-space-explorer/
 ├── embedding_utils.py            # Core library: model loading + all exp_* functions
 ├── stable_diffusion_deep_dive.py # Reference notebook: SD pipeline from scratch
 ├── 01_token_exploration.py       # Token space: nearest, opposite, arithmetic, density
