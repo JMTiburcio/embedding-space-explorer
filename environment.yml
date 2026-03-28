@@ -1,4 +1,4 @@
-name: embedding-mapper
+name: embedding-space-explorer
 channels:
   - defaults
 dependencies:
